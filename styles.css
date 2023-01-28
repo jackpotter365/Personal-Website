@@ -1,0 +1,44 @@
+body{
+    background-color: #333;
+    width: auto;
+    color: white;
+}
+img{
+    width: 10%;
+    height: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: red;
+    font-family: Arial;
+    width:fit-content;
+}
+
+.navbar-content{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height:min-content;
+}
+
+navbar-content-link:hover{
+    background-color:#333;
+}
+
+a{
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color:blueviolet;
+}

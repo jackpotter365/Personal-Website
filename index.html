@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <title>Jack's Page</title>        
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $.get("nav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script>
+        <!--end of Navigation bar-->
+        <img src="jack.jpg" alt="Jack Potter">        
+        <p>potter.365@osu.edu | Columbus, Ohio</p>
+        <p>Current Computer Science and Engineering Student at <a href="https://cse.osu.edu/">the Ohio State University</a>, graduating Spring 2023</p>
+        
+    </body>
+</html>
